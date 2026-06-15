@@ -7,6 +7,8 @@
     "dev": "concurrently \"vite --port 5173 --strictPort\" \"wait-on http://localhost:5173 && NODE_ENV=development electron .\"",
     "build": "vite build && electron-builder --mac",
     "build:dir": "vite build && electron-builder --mac --dir",
+    "build:win": "vite build && electron-builder --win",
+    "build:all": "vite build && electron-builder -mw",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -41,6 +43,14 @@
     "dmg": {
       "title": "PDF Toolkit",
       "iconSize": 80
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
     }
   }
 }
