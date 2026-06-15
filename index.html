@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PDF Toolkit</title>
     <!-- Fonts: bundled locally — no internet needed -->
-    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <!-- pdfjs-dist: bundled locally — no internet needed -->
-    <script src="/pdf.min.js"></script>
+    <script src="./pdf.min.js"></script>
     <script>
       // Make pdfjs available as window.pdfjsLib and configure the worker
       window.pdfjsLib = window['pdfjs-dist/build/pdf'];
       if (window.pdfjsLib && window.pdfjsLib.GlobalWorkerOptions) {
-        window.pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.js';
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.min.js';
       }
     </script>
   </head>
