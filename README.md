@@ -11,7 +11,6 @@
 | Image → PDF | Combine images into a PDF |
 | Rotate Pages | All or selected pages, 90/180/270° |
 | Watermark | Text stamp with opacity/size/angle controls |
-| Encrypt | AES password protection |
 | Extract Text | Pull text from selectable PDFs |
 | OCR Scan | Tesseract.js — reads scanned/image PDFs |
 
