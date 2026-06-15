@@ -1,0 +1,15 @@
+/* Inter */
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 300; src: url('./UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; src: url('./UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; src: url('./UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf') format('truetype'); }
+
+/* Rajdhani */
+@font-face { font-family: 'Rajdhani'; font-style: normal; font-weight: 400; src: url('./LDIxapCSOBg7S-QT7q4A.ttf') format('truetype'); }
+@font-face { font-family: 'Rajdhani'; font-style: normal; font-weight: 500; src: url('./LDI2apCSOBg7S-QT7pa8FsOs.ttf') format('truetype'); }
+@font-face { font-family: 'Rajdhani'; font-style: normal; font-weight: 600; src: url('./LDI2apCSOBg7S-QT7pb0EMOs.ttf') format('truetype'); }
+@font-face { font-family: 'Rajdhani'; font-style: normal; font-weight: 700; src: url('./LDI2apCSOBg7S-QT7pbYF8Os.ttf') format('truetype'); }
+
+/* Space Mono */
+@font-face { font-family: 'Space Mono'; font-style: normal; font-weight: 400; src: url('./i7dPIFZifjKcF5UAWdDRUEY.ttf') format('truetype'); }
+@font-face { font-family: 'Space Mono'; font-style: normal; font-weight: 700; src: url('./i7dNIFZifjKcF5UAWdDRUEY.ttf') format('truetype'); }
+@font-face { font-family: 'Space Mono'; font-style: italic; font-weight: 400; src: url('./i7dMIFZifjKcF5UAWdDRaPpZYFI.ttf') format('truetype'); }

@@ -1,0 +1,55 @@
+.dropzone {
+  position: relative;
+  border: 1px dashed rgba(0,240,255,0.25);
+  border-radius: var(--radius);
+  padding: 40px 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: rgba(0, 240, 255, 0.02);
+  overflow: hidden;
+}
+.dropzone:hover {
+  border-color: rgba(0,240,255,0.5);
+  background: rgba(0, 240, 255, 0.05);
+}
+.dropzone.dragging {
+  border-color: var(--cyan);
+  background: rgba(0, 240, 255, 0.08);
+  box-shadow: 0 0 30px rgba(0,240,255,0.2), inset 0 0 30px rgba(0,240,255,0.05);
+}
+
+/* Corner accents */
+.dropzone-corner {
+  position: absolute; width: 12px; height: 12px;
+  border-color: var(--cyan); border-style: solid;
+  opacity: 0.5;
+}
+.dropzone-corner.tl { top: 8px; left: 8px; border-width: 2px 0 0 2px; }
+.dropzone-corner.tr { top: 8px; right: 8px; border-width: 2px 2px 0 0; }
+.dropzone-corner.bl { bottom: 8px; left: 8px; border-width: 0 0 2px 2px; }
+.dropzone-corner.br { bottom: 8px; right: 8px; border-width: 0 2px 2px 0; }
+
+.dropzone-icon {
+  font-size: 36px; color: var(--cyan);
+  filter: drop-shadow(0 0 10px rgba(0,240,255,0.5));
+  margin-bottom: 12px;
+  display: block;
+}
+.dropzone-label {
+  font-family: var(--font-display); font-size: 16px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.dropzone-sub {
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--text-muted); margin-top: 6px;
+}
+.dropzone-overlay {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,240,255,0.12);
+  font-family: var(--font-display); font-size: 18px;
+  font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--cyan);
+}
